@@ -6,16 +6,16 @@ public class LinkedListLLL {
 
     public static void main(String[] args) {
         
-        LinkedList<String> list = new LinkedList<String>();
-        list.addFirst("a");
-        list.addFirst("is");
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        LinkedList<Integer> list2 = new LinkedList<Integer>();
 
-        list.addLast("List");
-        list.addFirst("This");
+        list.add(2);
+        list.add(4);
+        list.add(3);
 
-        list.add("Asif"); 
-
-        list.remove(list.size()-1);
+        list2.add(5);
+        list2.add(6);
+        list2.add(4);
 
         System.out.println(list);
     }

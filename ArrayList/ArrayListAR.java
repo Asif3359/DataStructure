@@ -9,6 +9,7 @@ public class ArrayListAR {
     public static void inArrayList()
     {
         ArrayList<String> list = new ArrayList<String>();
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Your String :");
         int i = 0 ;
@@ -43,6 +44,7 @@ public class ArrayListAR {
 
         System.out.println(list);
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Your String :");
         String subString = sc.nextLine();
