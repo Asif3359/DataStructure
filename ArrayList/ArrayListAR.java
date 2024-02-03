@@ -24,6 +24,7 @@ public class ArrayListAR {
 
         Collections.sort(list);
         System.out.println(list);
+        System.out.println(i);
     }
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
